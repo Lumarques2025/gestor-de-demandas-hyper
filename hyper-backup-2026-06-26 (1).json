@@ -1,0 +1,1439 @@
+{
+  "clientes": [
+    {
+      "id": "id_vkvlpacgjlnx",
+      "nome": "Café Aurora",
+      "classificacao": "VIP",
+      "segmento": "Gastronomia",
+      "pacote": "Premium",
+      "documento": "12.345.678/0001-90",
+      "endereco": "Av. Sete de Setembro, 1500 - Salvador/BA",
+      "persona": "Mulheres 25-45, baristas amadoras, alto interesse em receitas e cultura do café.",
+      "status": "Ativo",
+      "contato": {
+        "pessoaContato": "Renata Mendes",
+        "cargo": "Sócia-fundadora",
+        "email": "marketing@cafeaurora.com.br",
+        "telefone": "(71) 3033-1100",
+        "whatsapp": "(71) 99888-1100"
+      },
+      "contrato": {
+        "numero": "CT-2026-001",
+        "inicio": "2026-01-15",
+        "fim": "2026-12-31",
+        "itens": [
+          {
+            "produto": "Reels Orgânico",
+            "descricao": "Reels mensais",
+            "qtd": 8,
+            "valor": 350
+          },
+          {
+            "produto": "Cards",
+            "descricao": "Cards de feed",
+            "qtd": 8,
+            "valor": 180
+          },
+          {
+            "produto": "Carrosséis",
+            "descricao": "Carrosséis mensais",
+            "qtd": 4,
+            "valor": 320
+          },
+          {
+            "produto": "Capa Reels",
+            "descricao": "Capa Reels",
+            "qtd": 1,
+            "valor": 380
+          }
+        ],
+        "valorMensal": 4500,
+        "periodicidade": "Mensal",
+        "formaPagamento": "PIX",
+        "diaVencimento": 5,
+        "obsPagamento": "Comprovante por WhatsApp."
+      },
+      "bancario": {
+        "pixTipo": "CNPJ",
+        "pix": "12.345.678/0001-90",
+        "banco": "Itaú",
+        "tipo": "Corrente",
+        "agencia": "1234",
+        "conta": "56789-0",
+        "titular": "Café Aurora Ltda"
+      },
+      "lancamentos": [
+        {
+          "id": "id_0zw2dagojlnx",
+          "dataReferencia": "05/2026",
+          "vencimento": "2026-05-05",
+          "valorDevido": 4500,
+          "valorPago": 4500,
+          "obs": "Pago via PIX",
+          "historico": []
+        },
+        {
+          "id": "id_b1m45rucjlnx",
+          "dataReferencia": "06/2026",
+          "vencimento": "2026-06-05",
+          "valorDevido": 4500,
+          "valorPago": 2000,
+          "obs": "Parcial — saldo p/ 15/06",
+          "historico": []
+        }
+      ]
+    },
+    {
+      "id": "id_afehxl9mjlnx",
+      "nome": "Studio Fit Pro",
+      "classificacao": "A",
+      "segmento": "Saúde/Fitness",
+      "pacote": "Plus",
+      "documento": "23.456.789/0001-12",
+      "endereco": "Rua das Flores, 300 - Salvador/BA",
+      "persona": "Adultos 25-50, foco em performance e estética.",
+      "status": "Ativo",
+      "contato": {
+        "pessoaContato": "Carlos Trindade",
+        "cargo": "Diretor",
+        "email": "contato@studiofitpro.com",
+        "telefone": "(71) 3055-2200",
+        "whatsapp": "(71) 98777-2200"
+      },
+      "contrato": {
+        "numero": "CT-2026-002",
+        "inicio": "2026-02-01",
+        "fim": "2027-01-31",
+        "itens": [
+          {
+            "produto": "Cards",
+            "descricao": "Cards mensais",
+            "qtd": 8,
+            "valor": 160
+          },
+          {
+            "produto": "Vídeos",
+            "descricao": "Vídeos mensais",
+            "qtd": 4,
+            "valor": 420
+          },
+          {
+            "produto": "Trend",
+            "descricao": "Trends",
+            "qtd": 4,
+            "valor": 180
+          },
+          {
+            "produto": "Tráfego",
+            "descricao": "Setup tráfego",
+            "qtd": 1,
+            "valor": 380
+          }
+        ],
+        "valorMensal": 3200,
+        "periodicidade": "Mensal",
+        "formaPagamento": "Boleto",
+        "diaVencimento": 10,
+        "obsPagamento": ""
+      },
+      "bancario": {
+        "pixTipo": "E-mail",
+        "pix": "financeiro@studiofitpro.com",
+        "banco": "Bradesco",
+        "tipo": "Corrente",
+        "agencia": "0987",
+        "conta": "12345-6",
+        "titular": "Studio Fit Pro Ltda"
+      },
+      "lancamentos": [
+        {
+          "id": "id_ea9jcjkijlnx",
+          "dataReferencia": "06/2026",
+          "vencimento": "2026-06-10",
+          "valorDevido": 3200,
+          "valorPago": 0,
+          "obs": "Em aberto",
+          "historico": []
+        }
+      ]
+    },
+    {
+      "id": "id_8o0zbi0fjlnx",
+      "nome": "Mãe Terra Cosméticos",
+      "classificacao": "B",
+      "segmento": "Beleza",
+      "pacote": "Starter",
+      "documento": "34.567.890/0001-34",
+      "persona": "Mulheres 30-55, valorizam produtos naturais e sustentáveis.",
+      "status": "Ativo",
+      "contato": {
+        "pessoaContato": "Joana Lima",
+        "cargo": "Marketing",
+        "email": "social@maeterra.com.br",
+        "telefone": "",
+        "whatsapp": "(71) 99111-3300"
+      },
+      "contrato": {
+        "numero": "CT-2026-003",
+        "inicio": "2026-03-10",
+        "fim": "2026-09-10",
+        "itens": [
+          {
+            "produto": "Cards",
+            "descricao": "Cards mensais",
+            "qtd": 4,
+            "valor": 180
+          },
+          {
+            "produto": "Orgânico",
+            "descricao": "Posts orgânicos",
+            "qtd": 4,
+            "valor": 120
+          },
+          {
+            "produto": "Doc Reposicionamento",
+            "descricao": "Reposicionamento mensal",
+            "qtd": 1,
+            "valor": 380
+          }
+        ],
+        "valorMensal": 1800,
+        "periodicidade": "Mensal",
+        "formaPagamento": "PIX",
+        "diaVencimento": 15,
+        "obsPagamento": ""
+      },
+      "bancario": {
+        "pixTipo": "Aleatória",
+        "pix": "abc-123-xyz-456",
+        "banco": "Nubank",
+        "tipo": "Pagamento",
+        "agencia": "0001",
+        "conta": "9876543-2",
+        "titular": "Mãe Terra Cosméticos ME"
+      },
+      "lancamentos": []
+    },
+    {
+      "contato": {
+        "pessoaContato": "",
+        "cargo": "",
+        "email": "",
+        "telefone": "",
+        "whatsapp": "",
+        "outros": ""
+      },
+      "contrato": {
+        "itens": [
+          {
+            "produto": "Cards",
+            "descricao": "4x Cards (do pacote Starter)",
+            "qtd": 4,
+            "valor": 225
+          },
+          {
+            "produto": "Orgânico",
+            "descricao": "4x Orgânico (do pacote Starter)",
+            "qtd": 4,
+            "valor": 225
+          },
+          {
+            "descricao": "",
+            "qtd": 1,
+            "valor": 0,
+            "produto": "Capa Reels"
+          }
+        ],
+        "valorMensal": 1800,
+        "numero": "",
+        "inicio": "",
+        "fim": "",
+        "periodicidade": "Mensal",
+        "formaPagamento": "PIX",
+        "diaVencimento": 5,
+        "obsPagamento": ""
+      },
+      "bancario": {
+        "pixTipo": "CPF/CNPJ",
+        "pix": "",
+        "banco": "",
+        "tipo": "Corrente",
+        "agencia": "",
+        "conta": "",
+        "titular": ""
+      },
+      "lancamentos": [],
+      "pacote": "Starter",
+      "pacoteAplicado": "Starter",
+      "nome": "cliente teste",
+      "classificacao": "A",
+      "segmento": "",
+      "documento": "",
+      "status": "Ativo",
+      "endereco": "",
+      "responsavel": {
+        "nome": "",
+        "cpf": "",
+        "endereco": "",
+        "telefone": "",
+        "whatsapp": "",
+        "email": ""
+      },
+      "persona": "",
+      "observacoes": "",
+      "id": "id_fb5u6ezqafyg"
+    }
+  ],
+  "colaboradores": [
+    {
+      "id": "id_ur217mdjjlnx",
+      "nome": "Marina Costa",
+      "cargo": "Head Criação",
+      "email": "marina@hyper.ag",
+      "ativo": true,
+      "salario": 6500,
+      "bancario": {
+        "pixTipo": "E-mail",
+        "pix": "marina@hyper.ag",
+        "banco": "Nubank",
+        "agencia": "0001",
+        "conta": ""
+      },
+      "lancamentos": [
+        {
+          "id": "id_zh8qra25jlnx",
+          "dataReferencia": "05/2026",
+          "vencimento": "2026-05-05",
+          "valorDevido": 6500,
+          "valorPago": 6500,
+          "obs": "Salário maio (pago)",
+          "historico": [
+            {
+              "ts": "2026-06-23T20:56:10.605Z",
+              "valor": 6500,
+              "tipo": "total"
+            }
+          ]
+        },
+        {
+          "id": "id_6nx5go3kjlnx",
+          "dataReferencia": "06/2026",
+          "vencimento": "2026-06-05",
+          "valorDevido": 6500,
+          "valorPago": 0,
+          "obs": "Salário junho",
+          "historico": []
+        }
+      ]
+    },
+    {
+      "id": "id_3x91af7rjlnx",
+      "nome": "Rafael Andrade",
+      "cargo": "Social Media",
+      "email": "rafael@hyper.ag",
+      "ativo": true,
+      "salario": 4200,
+      "bancario": {
+        "pixTipo": "E-mail",
+        "pix": "rafael@hyper.ag",
+        "banco": "Nubank",
+        "agencia": "0001",
+        "conta": ""
+      },
+      "lancamentos": [
+        {
+          "id": "id_nnc6zh4ejlnx",
+          "dataReferencia": "05/2026",
+          "vencimento": "2026-05-05",
+          "valorDevido": 4200,
+          "valorPago": 4200,
+          "obs": "Salário maio (pago)",
+          "historico": [
+            {
+              "ts": "2026-06-23T20:56:10.605Z",
+              "valor": 4200,
+              "tipo": "total"
+            }
+          ]
+        },
+        {
+          "id": "id_9gkdcxowjlnx",
+          "dataReferencia": "06/2026",
+          "vencimento": "2026-06-05",
+          "valorDevido": 4200,
+          "valorPago": 0,
+          "obs": "Salário junho",
+          "historico": []
+        }
+      ]
+    },
+    {
+      "id": "id_azrsnw2xjlnx",
+      "nome": "Lúcia Bezerra",
+      "cargo": "Designer",
+      "email": "lucia@hyper.ag",
+      "ativo": true,
+      "salario": 3800,
+      "bancario": {
+        "pixTipo": "E-mail",
+        "pix": "lucia@hyper.ag",
+        "banco": "Nubank",
+        "agencia": "0001",
+        "conta": ""
+      },
+      "lancamentos": [
+        {
+          "id": "id_nh8kglosjlnx",
+          "dataReferencia": "05/2026",
+          "vencimento": "2026-05-05",
+          "valorDevido": 3800,
+          "valorPago": 3800,
+          "obs": "Salário maio (pago)",
+          "historico": [
+            {
+              "ts": "2026-06-23T20:56:10.605Z",
+              "valor": 3800,
+              "tipo": "total"
+            }
+          ]
+        },
+        {
+          "id": "id_zopcm05ejlnx",
+          "dataReferencia": "06/2026",
+          "vencimento": "2026-06-05",
+          "valorDevido": 3800,
+          "valorPago": 0,
+          "obs": "Salário junho",
+          "historico": []
+        }
+      ]
+    },
+    {
+      "id": "id_w1xin8pfjlnx",
+      "nome": "Pedro Almeida",
+      "cargo": "Filmaker",
+      "email": "pedro@hyper.ag",
+      "ativo": true,
+      "salario": 3800,
+      "bancario": {
+        "pixTipo": "E-mail",
+        "pix": "pedro@hyper.ag",
+        "banco": "Nubank",
+        "agencia": "0001",
+        "conta": ""
+      },
+      "lancamentos": [
+        {
+          "id": "id_y1h1i7wkjlnx",
+          "dataReferencia": "05/2026",
+          "vencimento": "2026-05-05",
+          "valorDevido": 3800,
+          "valorPago": 3800,
+          "obs": "Salário maio (pago)",
+          "historico": [
+            {
+              "ts": "2026-06-23T20:56:10.605Z",
+              "valor": 3800,
+              "tipo": "total"
+            }
+          ]
+        },
+        {
+          "id": "id_b7yjxixcjlnx",
+          "dataReferencia": "06/2026",
+          "vencimento": "2026-06-05",
+          "valorDevido": 3800,
+          "valorPago": 0,
+          "obs": "Salário junho",
+          "historico": []
+        }
+      ]
+    },
+    {
+      "id": "id_cyhd9t6yjlnx",
+      "nome": "Júlia Ribeiro",
+      "cargo": "Editor",
+      "email": "julia@hyper.ag",
+      "ativo": true,
+      "salario": 3800,
+      "bancario": {
+        "pixTipo": "E-mail",
+        "pix": "julia@hyper.ag",
+        "banco": "Nubank",
+        "agencia": "0001",
+        "conta": ""
+      },
+      "lancamentos": [
+        {
+          "id": "id_d046zvtijlnx",
+          "dataReferencia": "05/2026",
+          "vencimento": "2026-05-05",
+          "valorDevido": 3800,
+          "valorPago": 3800,
+          "obs": "Salário maio (pago)",
+          "historico": [
+            {
+              "ts": "2026-06-23T20:56:10.605Z",
+              "valor": 3800,
+              "tipo": "total"
+            }
+          ]
+        },
+        {
+          "id": "id_a9ijo8vujlnx",
+          "dataReferencia": "06/2026",
+          "vencimento": "2026-06-05",
+          "valorDevido": 3800,
+          "valorPago": 0,
+          "obs": "Salário junho",
+          "historico": []
+        }
+      ]
+    },
+    {
+      "id": "id_frwf0xkmjlnx",
+      "nome": "Carlos Menezes",
+      "cargo": "Filmaker/Editor",
+      "email": "carlos@hyper.ag",
+      "ativo": true,
+      "salario": 4500,
+      "bancario": {
+        "pixTipo": "E-mail",
+        "pix": "carlos@hyper.ag",
+        "banco": "Nubank",
+        "agencia": "0001",
+        "conta": ""
+      },
+      "lancamentos": [
+        {
+          "id": "id_n483sh2jjlnx",
+          "dataReferencia": "05/2026",
+          "vencimento": "2026-05-05",
+          "valorDevido": 4500,
+          "valorPago": 4500,
+          "obs": "Salário maio (pago)",
+          "historico": [
+            {
+              "ts": "2026-06-23T20:56:10.605Z",
+              "valor": 4500,
+              "tipo": "total"
+            }
+          ]
+        },
+        {
+          "id": "id_y9et5u2pjlnx",
+          "dataReferencia": "06/2026",
+          "vencimento": "2026-06-05",
+          "valorDevido": 4500,
+          "valorPago": 0,
+          "obs": "Salário junho",
+          "historico": []
+        }
+      ]
+    },
+    {
+      "id": "id_pi16n3dljlnx",
+      "nome": "Ana Souza",
+      "cargo": "Adm",
+      "email": "ana@hyper.ag",
+      "ativo": true,
+      "salario": 3200,
+      "bancario": {
+        "pixTipo": "E-mail",
+        "pix": "ana@hyper.ag",
+        "banco": "Nubank",
+        "agencia": "0001",
+        "conta": ""
+      },
+      "lancamentos": [
+        {
+          "id": "id_r2tcbawtjlnx",
+          "dataReferencia": "05/2026",
+          "vencimento": "2026-05-05",
+          "valorDevido": 3200,
+          "valorPago": 3200,
+          "obs": "Salário maio (pago)",
+          "historico": [
+            {
+              "ts": "2026-06-23T20:56:10.605Z",
+              "valor": 3200,
+              "tipo": "total"
+            }
+          ]
+        },
+        {
+          "id": "id_txtz51nojlnx",
+          "dataReferencia": "06/2026",
+          "vencimento": "2026-06-05",
+          "valorDevido": 3200,
+          "valorPago": 0,
+          "obs": "Salário junho",
+          "historico": []
+        }
+      ]
+    },
+    {
+      "id": "id_0ls7njxjjlnx",
+      "nome": "Dr. Bruno Lima",
+      "cargo": "Jurídico",
+      "email": "bruno@hyper.ag",
+      "ativo": true,
+      "salario": 5500,
+      "bancario": {
+        "pixTipo": "E-mail",
+        "pix": "bruno@hyper.ag",
+        "banco": "Nubank",
+        "agencia": "0001",
+        "conta": ""
+      },
+      "lancamentos": [
+        {
+          "id": "id_1au07zz0jlnx",
+          "dataReferencia": "05/2026",
+          "vencimento": "2026-05-05",
+          "valorDevido": 5500,
+          "valorPago": 5500,
+          "obs": "Salário maio (pago)",
+          "historico": [
+            {
+              "ts": "2026-06-23T20:56:10.605Z",
+              "valor": 5500,
+              "tipo": "total"
+            }
+          ]
+        },
+        {
+          "id": "id_q8rhxhicjlnx",
+          "dataReferencia": "06/2026",
+          "vencimento": "2026-06-05",
+          "valorDevido": 5500,
+          "valorPago": 0,
+          "obs": "Salário junho",
+          "historico": []
+        }
+      ]
+    }
+  ],
+  "fornecedores": [
+    {
+      "id": "id_em6o2zmbjlnx",
+      "nome": "Grafix Impressos",
+      "categoria": "Gráfica",
+      "email": "comercial@grafix.com.br",
+      "telefone": "(71) 3000-1111",
+      "obs": "Impressão de material gráfico",
+      "bancario": {
+        "pixTipo": "CNPJ",
+        "pix": "00.111.222/0001-00",
+        "banco": "Itaú",
+        "agencia": "1111",
+        "conta": "22222-3"
+      },
+      "lancamentos": [
+        {
+          "id": "id_r9udzxubjlnx",
+          "dataReferencia": "06/2026",
+          "vencimento": "2026-06-12",
+          "valorDevido": 850,
+          "valorPago": 0,
+          "obs": "Impressão flyers Café Aurora",
+          "historico": []
+        }
+      ]
+    },
+    {
+      "id": "id_smleuvlpjlnx",
+      "nome": "Studio Foto Lúmen",
+      "categoria": "Foto/Vídeo",
+      "email": "contato@studiolumen.com",
+      "telefone": "(71) 99999-2222",
+      "obs": "Locação de estúdio fotográfico",
+      "bancario": {
+        "pixTipo": "E-mail",
+        "pix": "financeiro@studiolumen.com",
+        "banco": "Bradesco",
+        "agencia": "3333",
+        "conta": "44444-5"
+      },
+      "lancamentos": [
+        {
+          "id": "id_j1xs5fgujlnx",
+          "dataReferencia": "05/2026",
+          "vencimento": "2026-05-25",
+          "valorDevido": 1200,
+          "valorPago": 1200,
+          "obs": "Sessão fotos Mãe Terra (pago)",
+          "historico": [
+            {
+              "ts": "2026-06-23T20:56:10.605Z",
+              "valor": 1200,
+              "tipo": "total"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "id_0rjkm5x7jlnx",
+      "nome": "Trilha Música Livre",
+      "categoria": "Áudio",
+      "email": "lic@trilhamusical.com",
+      "telefone": "",
+      "obs": "Licenciamento de trilha sonora",
+      "bancario": {
+        "pixTipo": "CPF",
+        "pix": "123.456.789-00",
+        "banco": "Nubank",
+        "agencia": "0001",
+        "conta": "99999-9"
+      },
+      "lancamentos": []
+    }
+  ],
+  "produtos": [
+    {
+      "id": "id_49niocw1jlnx",
+      "nome": "Card avulso",
+      "tipo": "Avulso",
+      "descricao": "Peça de feed estática",
+      "valor": 180
+    },
+    {
+      "id": "id_fb2ezthyjlnx",
+      "nome": "Carrossel avulso",
+      "tipo": "Avulso",
+      "descricao": "Carrossel 5-10 cards",
+      "valor": 320
+    },
+    {
+      "id": "id_xglk2l3vjlnx",
+      "nome": "Reels avulso",
+      "tipo": "Avulso",
+      "descricao": "Reels editado até 30s",
+      "valor": 350
+    },
+    {
+      "id": "id_ew8bm4ahjlnx",
+      "nome": "Doc Reposicionamento",
+      "tipo": "Projeto",
+      "descricao": "Documento estratégico de reposicionamento",
+      "valor": 4500
+    },
+    {
+      "id": "id_njth7rdjjlnx",
+      "nome": "Setup Tráfego Pago",
+      "tipo": "Setup",
+      "descricao": "Configuração de campanhas Meta/Google",
+      "valor": 1200
+    }
+  ],
+  "pacotes": [
+    {
+      "id": "id_p24ly83bjlnx",
+      "nome": "Basic",
+      "valorMensal": 1500,
+      "descricao": "Pacote inicial — 4 cards + 4 videos mensais",
+      "itens": [
+        {
+          "produto": "Cards",
+          "qtd": 4
+        },
+        {
+          "produto": "Vídeos",
+          "qtd": 4
+        }
+      ],
+      "cor": "blue",
+      "ativo": true
+    },
+    {
+      "id": "id_00hf41ihjlnx",
+      "nome": "Plus",
+      "valorMensal": 3200,
+      "descricao": "Conteúdo intermediário — 8 cards + 4 vídeos + 4 trends",
+      "itens": [
+        {
+          "produto": "Cards",
+          "qtd": 8
+        },
+        {
+          "produto": "Vídeos",
+          "qtd": 4
+        },
+        {
+          "produto": "Trend",
+          "qtd": 4
+        }
+      ],
+      "cor": "green",
+      "ativo": true
+    },
+    {
+      "id": "id_zbo1wcevjlnx",
+      "nome": "Premium",
+      "valorMensal": 4500,
+      "descricao": "Pacote completo com reels e carrosséis",
+      "itens": [
+        {
+          "produto": "Reels Orgânico",
+          "qtd": 8
+        },
+        {
+          "produto": "Cards",
+          "qtd": 8
+        },
+        {
+          "produto": "Carrosséis",
+          "qtd": 4
+        },
+        {
+          "produto": "Capa Reels",
+          "qtd": 1
+        }
+      ],
+      "cor": "purple",
+      "ativo": true
+    },
+    {
+      "id": "id_r2e5cll6jlnx",
+      "nome": "Enterprise",
+      "valorMensal": 8500,
+      "descricao": "Operação completa de conteúdo + tráfego + reposicionamento",
+      "itens": [
+        {
+          "produto": "Reels Orgânico",
+          "qtd": 12
+        },
+        {
+          "produto": "Cards",
+          "qtd": 12
+        },
+        {
+          "produto": "Carrosséis",
+          "qtd": 6
+        },
+        {
+          "produto": "Tráfego",
+          "qtd": 2
+        },
+        {
+          "produto": "Doc Reposicionamento",
+          "qtd": 1
+        }
+      ],
+      "cor": "amber",
+      "ativo": true
+    },
+    {
+      "id": "id_29jvui36jlnx",
+      "nome": "Custom",
+      "valorMensal": 0,
+      "descricao": "Pacote personalizado conforme demanda do cliente",
+      "itens": [],
+      "cor": "gray",
+      "ativo": true
+    }
+  ],
+  "demandas": [
+    {
+      "id": "id_6ibiqi2ujlnx",
+      "clienteId": "id_vkvlpacgjlnx",
+      "titulo": "Card 'Receita da semana'",
+      "editorial": "Cards",
+      "estrategia": "MKT Continuado",
+      "prioridade": "Média",
+      "responsavelId": "id_azrsnw2xjlnx",
+      "prazo": "2026-06-26",
+      "status": "producao",
+      "descricao": "Demanda demo gerada automaticamente para visualização.",
+      "criadoEm": "2026-06-23T20:56:10.605Z",
+      "historico": [
+        {
+          "ts": "2026-06-23T20:56:10.605Z",
+          "autor": "Sistema",
+          "evento": "Demanda criada",
+          "status": "solicitacao"
+        }
+      ]
+    },
+    {
+      "id": "id_wqk13dyejlnx",
+      "clienteId": "id_vkvlpacgjlnx",
+      "titulo": "Carrossel história do café",
+      "editorial": "Carrosséis",
+      "estrategia": "Reposicionamento",
+      "prioridade": "Alta",
+      "responsavelId": "id_azrsnw2xjlnx",
+      "prazo": "2026-06-25",
+      "status": "aprov_interna",
+      "descricao": "Demanda demo gerada automaticamente para visualização.",
+      "criadoEm": "2026-06-23T20:56:10.605Z",
+      "historico": [
+        {
+          "ts": "2026-06-23T20:56:10.605Z",
+          "autor": "Sistema",
+          "evento": "Demanda criada",
+          "status": "solicitacao"
+        }
+      ]
+    },
+    {
+      "id": "id_6q6ghr2rjlnx",
+      "clienteId": "id_vkvlpacgjlnx",
+      "titulo": "Reels 'Latte art em casa'",
+      "editorial": "Reels Orgânico",
+      "estrategia": "MKT Continuado",
+      "prioridade": "Alta",
+      "responsavelId": "id_frwf0xkmjlnx",
+      "prazo": "2026-06-24",
+      "status": "aprov_cliente",
+      "descricao": "Demanda demo gerada automaticamente para visualização.",
+      "criadoEm": "2026-06-23T20:56:10.605Z",
+      "historico": [
+        {
+          "ts": "2026-06-23T20:56:10.605Z",
+          "autor": "Sistema",
+          "evento": "Demanda criada",
+          "status": "solicitacao"
+        }
+      ]
+    },
+    {
+      "id": "id_z5iyzpu1jlnx",
+      "clienteId": "id_afehxl9mjlnx",
+      "titulo": "Trend audio fitness",
+      "editorial": "Trend",
+      "estrategia": "MKT Continuado",
+      "prioridade": "Alta",
+      "responsavelId": "id_w1xin8pfjlnx",
+      "prazo": "2026-06-23",
+      "status": "producao",
+      "descricao": "Demanda demo gerada automaticamente para visualização.",
+      "criadoEm": "2026-06-23T20:56:10.605Z",
+      "historico": [
+        {
+          "ts": "2026-06-23T20:56:10.605Z",
+          "autor": "Sistema",
+          "evento": "Demanda criada",
+          "status": "solicitacao"
+        },
+        {
+          "ts": "2026-06-23T21:19:34.645Z",
+          "autor": "Usuário",
+          "evento": "Solicitação → Produção",
+          "status": "producao"
+        }
+      ]
+    },
+    {
+      "id": "id_3m6fg5cijlnx",
+      "clienteId": "id_afehxl9mjlnx",
+      "titulo": "Vídeo institucional 60s",
+      "editorial": "Vídeos",
+      "estrategia": "Reposicionamento",
+      "prioridade": "Média",
+      "responsavelId": "id_cyhd9t6yjlnx",
+      "prazo": "2026-06-30",
+      "status": "producao",
+      "descricao": "Demanda demo gerada automaticamente para visualização.",
+      "criadoEm": "2026-06-23T20:56:10.605Z",
+      "historico": [
+        {
+          "ts": "2026-06-23T20:56:10.605Z",
+          "autor": "Sistema",
+          "evento": "Demanda criada",
+          "status": "solicitacao"
+        }
+      ]
+    },
+    {
+      "id": "id_ot0yob16jlnx",
+      "clienteId": "id_afehxl9mjlnx",
+      "titulo": "Campanha leads outubro",
+      "editorial": "Tráfego",
+      "estrategia": "MKT Continuado",
+      "prioridade": "Média",
+      "responsavelId": "id_azrsnw2xjlnx",
+      "prazo": "2026-06-28",
+      "status": "programado",
+      "descricao": "Demanda demo gerada automaticamente para visualização.",
+      "criadoEm": "2026-06-23T20:56:10.605Z",
+      "historico": [
+        {
+          "ts": "2026-06-23T20:56:10.605Z",
+          "autor": "Sistema",
+          "evento": "Demanda criada",
+          "status": "solicitacao"
+        }
+      ]
+    },
+    {
+      "id": "id_o4pgtm9tjlnx",
+      "clienteId": "id_8o0zbi0fjlnx",
+      "titulo": "Capa Reels mensal",
+      "editorial": "Capa Reels",
+      "estrategia": "MKT Continuado",
+      "prioridade": "Baixa",
+      "responsavelId": "id_azrsnw2xjlnx",
+      "prazo": "2026-06-27",
+      "status": "ajuste_interno",
+      "descricao": "Demanda demo gerada automaticamente para visualização.",
+      "criadoEm": "2026-06-23T20:56:10.605Z",
+      "historico": [
+        {
+          "ts": "2026-06-23T20:56:10.605Z",
+          "autor": "Sistema",
+          "evento": "Demanda criada",
+          "status": "solicitacao"
+        }
+      ]
+    },
+    {
+      "id": "id_c4r46qlzjlnx",
+      "clienteId": "id_8o0zbi0fjlnx",
+      "titulo": "Doc Reposicionamento Mãe Terra",
+      "editorial": "Doc Reposicionamento",
+      "estrategia": "Reposicionamento",
+      "prioridade": "Alta",
+      "responsavelId": "id_frwf0xkmjlnx",
+      "prazo": "2026-07-03",
+      "status": "producao",
+      "descricao": "Demanda demo gerada automaticamente para visualização.",
+      "criadoEm": "2026-06-23T20:56:10.605Z",
+      "historico": [
+        {
+          "ts": "2026-06-23T20:56:10.605Z",
+          "autor": "Sistema",
+          "evento": "Demanda criada",
+          "status": "solicitacao"
+        }
+      ]
+    },
+    {
+      "id": "id_xtw39blxjlnx",
+      "clienteId": "id_8o0zbi0fjlnx",
+      "titulo": "Posts orgânicos da semana",
+      "editorial": "Orgânico",
+      "estrategia": "MKT Continuado",
+      "prioridade": "Média",
+      "responsavelId": "id_3x91af7rjlnx",
+      "prazo": "2026-06-21",
+      "status": "postado",
+      "descricao": "Demanda demo gerada automaticamente para visualização.",
+      "criadoEm": "2026-06-23T20:56:10.605Z",
+      "historico": [
+        {
+          "ts": "2026-06-23T20:56:10.605Z",
+          "autor": "Sistema",
+          "evento": "Demanda criada",
+          "status": "solicitacao"
+        }
+      ]
+    },
+    {
+      "id": "id_5wln9l58c6dh",
+      "titulo": "card apresentação",
+      "clienteId": "id_fb5u6ezqafyg",
+      "editorial": "Cards",
+      "responsavelId": "id_azrsnw2xjlnx",
+      "prioridade": "Alta",
+      "prazo": "2026-06-24",
+      "estrategia": "MKT Continuado",
+      "status": "descartado",
+      "descricao": "lançamento do cliente conforme briefing prévio",
+      "extra": false,
+      "custoExtra": 0,
+      "criadoEm": "2026-06-23T21:18:23.813Z",
+      "historico": [
+        {
+          "ts": "2026-06-23T21:18:23.813Z",
+          "autor": "Usuário",
+          "evento": "Demanda criada",
+          "status": "solicitacao"
+        },
+        {
+          "ts": "2026-06-23T21:18:48.327Z",
+          "autor": "Usuário",
+          "evento": "Solicitação → Produção",
+          "status": "producao"
+        },
+        {
+          "ts": "2026-06-23T21:20:14.960Z",
+          "autor": "Usuário",
+          "evento": "Produção → Aprov. Interna",
+          "status": "aprov_interna"
+        },
+        {
+          "ts": "2026-06-23T21:21:34.588Z",
+          "autor": "Usuário",
+          "evento": "Aprov. Interna → Descartado",
+          "status": "descartado"
+        }
+      ]
+    },
+    {
+      "id": "id_6fvbtggxgyje",
+      "titulo": "card apresentaçao 2",
+      "clienteId": "id_fb5u6ezqafyg",
+      "editorial": "Cards",
+      "responsavelId": "id_azrsnw2xjlnx",
+      "prioridade": "Alta",
+      "prazo": "",
+      "estrategia": "Estratégia/Editorial",
+      "status": "solicitacao",
+      "descricao": "",
+      "extra": false,
+      "custoExtra": 0,
+      "criadoEm": "2026-06-23T21:22:06.938Z",
+      "historico": [
+        {
+          "ts": "2026-06-23T21:22:06.938Z",
+          "autor": "Usuário",
+          "evento": "Demanda criada",
+          "status": "solicitacao"
+        }
+      ]
+    },
+    {
+      "id": "id_volw1atphe0f",
+      "titulo": "card apresentaçao 3",
+      "clienteId": "id_fb5u6ezqafyg",
+      "editorial": "Cards",
+      "responsavelId": "id_azrsnw2xjlnx",
+      "prioridade": "Alta",
+      "prazo": "",
+      "estrategia": "Estratégia/Editorial",
+      "status": "solicitacao",
+      "descricao": "",
+      "extra": false,
+      "custoExtra": 0,
+      "criadoEm": "2026-06-23T21:22:26.991Z",
+      "historico": [
+        {
+          "ts": "2026-06-23T21:22:26.991Z",
+          "autor": "Usuário",
+          "evento": "Demanda criada",
+          "status": "solicitacao"
+        }
+      ]
+    },
+    {
+      "id": "id_bif26v1xhsn0",
+      "titulo": "card apresentaçao 4",
+      "clienteId": "id_vkvlpacgjlnx",
+      "editorial": "Cards",
+      "responsavelId": "id_azrsnw2xjlnx",
+      "prioridade": "Alta",
+      "prazo": "",
+      "estrategia": "Estratégia/Editorial",
+      "status": "solicitacao",
+      "descricao": "",
+      "extra": false,
+      "custoExtra": 0,
+      "criadoEm": "2026-06-23T21:22:45.948Z",
+      "historico": [
+        {
+          "ts": "2026-06-23T21:22:45.948Z",
+          "autor": "Usuário",
+          "evento": "Demanda criada",
+          "status": "solicitacao"
+        }
+      ]
+    },
+    {
+      "id": "id_jkq2fv7vjae6",
+      "titulo": "card apresentaçao xx",
+      "clienteId": "id_vkvlpacgjlnx",
+      "editorial": "Cards",
+      "responsavelId": "id_azrsnw2xjlnx",
+      "prioridade": "Alta",
+      "prazo": "",
+      "estrategia": "Estratégia/Editorial",
+      "status": "solicitacao",
+      "descricao": "",
+      "extra": false,
+      "custoExtra": 0,
+      "criadoEm": "2026-06-23T21:23:55.614Z",
+      "historico": [
+        {
+          "ts": "2026-06-23T21:23:55.614Z",
+          "autor": "Usuário",
+          "evento": "Demanda criada",
+          "status": "solicitacao"
+        }
+      ]
+    },
+    {
+      "id": "id_fl2grpy5jnpu",
+      "titulo": "card test 1",
+      "clienteId": "id_vkvlpacgjlnx",
+      "editorial": "Cards",
+      "responsavelId": "id_azrsnw2xjlnx",
+      "prioridade": "Alta",
+      "prazo": "",
+      "estrategia": "Estratégia/Editorial",
+      "status": "descartado",
+      "descricao": "",
+      "extra": false,
+      "custoExtra": 0,
+      "criadoEm": "2026-06-23T21:24:12.882Z",
+      "historico": [
+        {
+          "ts": "2026-06-23T21:24:12.882Z",
+          "autor": "Usuário",
+          "evento": "Demanda criada",
+          "status": "solicitacao"
+        },
+        {
+          "ts": "2026-06-23T21:25:18.177Z",
+          "autor": "Usuário",
+          "evento": "Solicitação → Produção",
+          "status": "producao"
+        },
+        {
+          "ts": "2026-06-23T21:25:24.553Z",
+          "autor": "Usuário",
+          "evento": "Produção → Aprov. Interna",
+          "status": "aprov_interna"
+        },
+        {
+          "ts": "2026-06-23T21:25:37.932Z",
+          "autor": "Usuário",
+          "evento": "Aprov. Interna → Descartado",
+          "status": "descartado"
+        }
+      ]
+    },
+    {
+      "id": "id_eudceikejvxo",
+      "titulo": "card teste 3",
+      "clienteId": "id_vkvlpacgjlnx",
+      "editorial": "Cards",
+      "responsavelId": "id_azrsnw2xjlnx",
+      "prioridade": "Alta",
+      "prazo": "",
+      "estrategia": "Estratégia/Editorial",
+      "status": "solicitacao",
+      "descricao": "",
+      "extra": false,
+      "custoExtra": 0,
+      "criadoEm": "2026-06-23T21:24:23.532Z",
+      "historico": [
+        {
+          "ts": "2026-06-23T21:24:23.532Z",
+          "autor": "Usuário",
+          "evento": "Demanda criada",
+          "status": "solicitacao"
+        }
+      ]
+    },
+    {
+      "id": "id_qmkukh4xk951",
+      "titulo": "card teste 2",
+      "clienteId": "id_vkvlpacgjlnx",
+      "editorial": "Cards",
+      "responsavelId": "id_azrsnw2xjlnx",
+      "prioridade": "Alta",
+      "prazo": "",
+      "estrategia": "Estratégia/Editorial",
+      "status": "solicitacao",
+      "descricao": "",
+      "extra": false,
+      "custoExtra": 0,
+      "criadoEm": "2026-06-23T21:24:40.645Z",
+      "historico": [
+        {
+          "ts": "2026-06-23T21:24:40.645Z",
+          "autor": "Usuário",
+          "evento": "Demanda criada",
+          "status": "solicitacao"
+        }
+      ]
+    },
+    {
+      "id": "id_ctizf9i1kh6z",
+      "titulo": "card teste 4",
+      "clienteId": "id_vkvlpacgjlnx",
+      "editorial": "Cards",
+      "responsavelId": "id_azrsnw2xjlnx",
+      "prioridade": "Alta",
+      "prazo": "",
+      "estrategia": "Estratégia/Editorial",
+      "status": "solicitacao",
+      "descricao": "",
+      "extra": false,
+      "custoExtra": 0,
+      "criadoEm": "2026-06-23T21:24:51.083Z",
+      "historico": [
+        {
+          "ts": "2026-06-23T21:24:51.083Z",
+          "autor": "Usuário",
+          "evento": "Demanda criada",
+          "status": "solicitacao"
+        }
+      ]
+    }
+  ],
+  "notificacoes": [],
+  "faturas": [],
+  "cargosCustom": [],
+  "tiposContratoCustom": [],
+  "financeiro": {
+    "receitas": [
+      {
+        "id": "id_lqch8ywwjlnx",
+        "data": "2026-05-24",
+        "cliente": "Café Aurora",
+        "descricao": "Mensalidade Café Aurora",
+        "valor": 4500
+      },
+      {
+        "id": "id_r8ftk4efjlnx",
+        "data": "2026-05-26",
+        "cliente": "Studio Fit Pro",
+        "descricao": "Mensalidade Studio Fit",
+        "valor": 3200
+      },
+      {
+        "id": "id_7wds5veujlnx",
+        "data": "2026-06-08",
+        "cliente": "Mãe Terra Cosméticos",
+        "descricao": "Mensalidade Mãe Terra",
+        "valor": 1800
+      },
+      {
+        "id": "id_trdih304jlnx",
+        "data": "2026-06-18",
+        "cliente": "Café Aurora",
+        "descricao": "Avulso Carrossel extra",
+        "valor": 320
+      }
+    ],
+    "despesas": [
+      {
+        "id": "id_0cw6pr27jlnx",
+        "data": "2026-05-29",
+        "categoria": "Salários",
+        "descricao": "Folha equipe",
+        "valor": 4800
+      },
+      {
+        "id": "id_82mvfbmtjlnx",
+        "data": "2026-06-03",
+        "categoria": "Software",
+        "descricao": "Assinaturas Adobe/Canva",
+        "valor": 380
+      },
+      {
+        "id": "id_c8dz5iemjlnx",
+        "data": "2026-06-11",
+        "categoria": "Tráfego Pago",
+        "descricao": "Verba Meta Ads (Café)",
+        "valor": 800
+      },
+      {
+        "id": "id_aa3f2fugjlnx",
+        "data": "2026-06-15",
+        "categoria": "Infraestrutura",
+        "descricao": "Hospedagem e domínios",
+        "valor": 220
+      }
+    ]
+  },
+  "chat": {
+    "usuarioAtualId": "id_ur217mdjjlnx",
+    "canalAtivo": "id_6k67plv3jlnx",
+    "canais": [
+      {
+        "id": "id_6k67plv3jlnx",
+        "nome": "geral",
+        "descricao": "Conversa de toda a equipe",
+        "icon": "📢",
+        "criadoEm": "2026-06-23T20:56:10.605Z"
+      },
+      {
+        "id": "id_n86l5yyijlnx",
+        "nome": "criacao",
+        "descricao": "Time de criação",
+        "icon": "🎨",
+        "criadoEm": "2026-06-23T20:56:10.605Z"
+      },
+      {
+        "id": "id_3c4m3xykjlnx",
+        "nome": "financeiro",
+        "descricao": "Equipe financeira/adm",
+        "icon": "💰",
+        "criadoEm": "2026-06-23T20:56:10.605Z"
+      },
+      {
+        "id": "id_0n5oxq3gjlnx",
+        "nome": "avisos",
+        "descricao": "Comunicados oficiais",
+        "icon": "🔔",
+        "criadoEm": "2026-06-23T20:56:10.605Z"
+      }
+    ],
+    "mensagens": [
+      {
+        "id": "id_i6vciaoljlnx",
+        "canalId": "id_6k67plv3jlnx",
+        "autorId": "id_ur217mdjjlnx",
+        "autorNome": "Marina Costa",
+        "texto": "Pessoal, bom dia! Lembrete: reunião de pauta hoje às 10h.",
+        "ts": "2026-06-23T17:56:10.605Z",
+        "lidaPor": [
+          "id_ur217mdjjlnx"
+        ]
+      },
+      {
+        "id": "id_puk7dolmjlnx",
+        "canalId": "id_6k67plv3jlnx",
+        "autorId": "id_3x91af7rjlnx",
+        "autorNome": "Rafael Andrade",
+        "texto": "Bom dia! Estarei lá 👋",
+        "ts": "2026-06-23T18:26:10.605Z",
+        "lidaPor": [
+          "id_3x91af7rjlnx",
+          "id_ur217mdjjlnx"
+        ]
+      },
+      {
+        "id": "id_98udqbl8jlnx",
+        "canalId": "id_n86l5yyijlnx",
+        "autorId": "id_azrsnw2xjlnx",
+        "autorNome": "Lúcia Bezerra",
+        "texto": "Carrosséis do Café Aurora aprovados! Subindo para programação.",
+        "ts": "2026-06-23T19:56:10.605Z",
+        "lidaPor": [
+          "id_azrsnw2xjlnx"
+        ]
+      },
+      {
+        "id": "id_pw3cq7rljlnx",
+        "canalId": "id_3c4m3xykjlnx",
+        "autorId": "id_pi16n3dljlnx",
+        "autorNome": "Ana Souza",
+        "texto": "Faturas de junho fechadas. Repassei a planilha por DM.",
+        "ts": "2026-06-23T20:26:10.605Z",
+        "lidaPor": [
+          "id_pi16n3dljlnx"
+        ]
+      },
+      {
+        "id": "id_78i1j82ojlnx",
+        "canalId": "id_0n5oxq3gjlnx",
+        "autorId": "id_ur217mdjjlnx",
+        "autorNome": "Marina Costa",
+        "texto": "📢 Próxima sexta teremos confraternização. Detalhes em breve!",
+        "ts": "2026-06-23T20:41:10.605Z",
+        "lidaPor": [
+          "id_ur217mdjjlnx"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "criado": "2026-06-23T20:54:21.107Z",
+    "lastWelcome": "2026-06-26"
+  }
+}
