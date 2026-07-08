@@ -4,7 +4,16 @@ const path = require('path');
 
 async function exportarFirestore() {
   const projectId = process.env.FIREBASE_PROJECT_ID;
-  const credJson = process.env.FIREBASE_SERVICE_ACCOUNT;
+  const credRaw = process.env.FIREBASE_SERVICE_ACCOUNT;
+  // Suporta tanto JSON direto quanto base64
+  let credJson;
+  try {
+    const decoded = Buffer.from(credRaw, 'base64').toString('utf8');
+    JSON.parse(decoded);
+    credJson = decoded;
+  } catch {
+    credJson = credRaw;
+  }
 
   if (!projectId || !credJson) {
     console.error('❌ Variáveis FIREBASE_PROJECT_ID e FIREBASE_SERVICE_ACCOUNT são obrigatórias.');
