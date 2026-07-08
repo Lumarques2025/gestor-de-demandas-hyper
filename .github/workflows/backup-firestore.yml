@@ -1,0 +1,54 @@
+name: Backup Firestore Diário
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Todo dia às 03:00 horário de Brasília (UTC-3)
+  workflow_dispatch:       # Permite rodar manualmente pelo GitHub
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório principal
+        uses: actions/checkout@v4
+
+      - name: Instalar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Instalar dependências do backup
+        working-directory: backup
+        run: npm install
+
+      - name: Executar backup do Firestore
+        working-directory: backup
+        env:
+          FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          OUTPUT_DIR: ./output
+        run: |
+          mkdir -p output
+          node index.js
+
+      - name: Enviar backup para repositório hyper-backups
+        working-directory: backup
+        env:
+          BACKUP_REPO: ${{ secrets.BACKUP_REPO }}
+          BACKUP_REPO_TOKEN: ${{ secrets.BACKUP_REPO_TOKEN }}
+        run: |
+          git config --global user.email "backup-bot@hyper.com"
+          git config --global user.name "Backup Bot"
+
+          git clone https://x-access-token:${BACKUP_REPO_TOKEN}@github.com/${BACKUP_REPO}.git destino
+          cp output/backup-*.json destino/
+
+          cd destino
+
+          # Apagar backups com mais de 30 dias
+          find . -name "backup-*.json" -mtime +30 -delete
+
+          git add -A
+          git commit -m "Backup automático $(date +%Y-%m-%d)" || echo "Sem alterações"
+          git push
